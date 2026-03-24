@@ -25,12 +25,30 @@
 
 #string formatting
 
-a = 5
-b = 10
-sum = a+b
+# a = 5
+# b = 10
+# sum = a+b
 
 # normal formatting 
-print ("sum of {} & {} is {}".format(a,b,sum))
+# print ("sum of {} & {} is {}".format(a,b,sum))
+
+# #example 2 
+# print("language is {}".format("python"))
+
+# #index based formatting 
+# print ("sum of {0} & {1} is {2}".format(a,b,sum))
+
+# f-strings => f"your text {variable}"
+# example 1
+name = "Faizan"
+age = 21
+print(f"My name is {name} and I am {age} years old")
+
+a = 10
+b = 5
 
 #example 2 
-print("language is {}".format("python"))
+print(f"Sum is {a + b}")
+# add this line anywhere
+print("Day 4 completed 🚀")
+
