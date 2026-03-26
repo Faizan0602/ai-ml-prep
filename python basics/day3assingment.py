@@ -104,19 +104,21 @@
 # [ parameter can have values +,-,*,/]
        
 
-def calculator(a,b,operation):
-    ans = 0
-    if operation == '+':
-        ans = a+b
-    elif operation == '-':
-        ans = a-b
-    elif operation == '*':
-        ans = a*b
-    else :
-        ans = a/b   
-    return ans 
+# def calculator(a,b,operation):
+#     ans = 0
+#     if operation == '+':
+#         ans = a+b
+#     elif operation == '-':
+#         ans = a-b
+#     elif operation == '*':
+#         ans = a*b
+#     else :
+#         ans = a/b   
+#     return ans 
 
-print(calculator(20,10,'*'))
+# print(calculator(20,10,'*'))
+
+
 
 
         

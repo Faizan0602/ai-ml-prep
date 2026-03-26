@@ -1,13 +1,13 @@
-# word = "python"
-# print(len(word))
+word = "python"
+print(len(word))
 
-# word1 = "i love"
-# word2 = "java"
-# sentence = word1+" "+word2
-# print(sentence)
+word1 = "i love"
+word2 = "java"
+sentence = word1+" "+word2
+print(sentence)
 
-# word3 = "Faizan"
-# print(word3[3])
+word3 = "Faizan"
+print(word3[3])
 
 # slicing string (string ke tukde karke sub string bnana)
 
@@ -16,27 +16,27 @@
 
 #=> str[starting index : ending index(not including) +1]
 
-# str = "python"
-# print(str[2:4])
+str = "python"
+print(str[2:4])
 
-# str1 = "i am faizan"
-# print(str1[:4])
-# print(str1[0:len(str1)])
+str1 = "i am faizan"
+print(str1[:4])
+print(str1[0:len(str1)])
 
 #string formatting
 
-# a = 5
-# b = 10
-# sum = a+b
+a = 5
+b = 10
+sum = a+b
 
 # normal formatting 
-# print ("sum of {} & {} is {}".format(a,b,sum))
+print ("sum of {} & {} is {}".format(a,b,sum))
 
 # #example 2 
-# print("language is {}".format("python"))
+print("language is {}".format("python"))
 
 # #index based formatting 
-# print ("sum of {0} & {1} is {2}".format(a,b,sum))
+print ("sum of {0} & {1} is {2}".format(a,b,sum))
 
 # f-strings => f"your text {variable}"
 # example 1
