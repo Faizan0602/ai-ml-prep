@@ -58,5 +58,5 @@ for value in num:
         break
     idx+=1
 
-
+#list completed 
 
