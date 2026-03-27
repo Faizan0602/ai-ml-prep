@@ -28,3 +28,5 @@ print(student)
 student.pop("age")
 print(student)
 
+# dictionary methods
+
