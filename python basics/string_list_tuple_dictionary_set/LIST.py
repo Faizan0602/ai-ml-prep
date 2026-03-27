@@ -7,7 +7,7 @@
 # print(len(marks))
 # print(marks[2])
 
-# marks[2]=70
+# marks[2]=70  # mutable
 # print(marks)
 
 # #slicing in list  : sub list is created 
@@ -50,8 +50,8 @@ num = [1,2,3,10,4,5]
 
 # find the index of the element 10 
 
-x = 10
-idx = 0
+x = 10 # target element
+idx = 0 # index init. from 0
 for value in num:
     if(value==x):
         print(f"x found at index : {idx}")
