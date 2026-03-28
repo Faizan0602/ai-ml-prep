@@ -1,5 +1,5 @@
 # # List = ek container jisme multiple values store hoti hain
-# # mutable sequence of values i.e. (values from a particular index can be altered/ changed unlike strings which are mutable)
+# # mutable sequence of values i.e. (values from a particular index can be altered/ changed unlike strings which are immutable)
 # # no need to make different variables , rather make one and store all in that
 
 # marks = [99,89,100,65,92]
