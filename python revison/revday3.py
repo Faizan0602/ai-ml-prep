@@ -56,10 +56,40 @@
 
 #ODD EVEN 
 
-n = int(input("enter the number to be checked : "))
-if(n%2==0):
-    print("even")
-else:
-    print("odd")
+# n = int(input("enter the number to be checked : "))
+# if(n%2==0):
+#     print("even")
+# else:
+#     print("odd")
+
+#loops (while,for)- for repetetive task 
+
+# i = 1
+# while (i<=5):
+#     print("hello world")
+#     i+=1
+
+#print numbers from 1 to 5
+
+# i = 1
+# while(i<=5):
+#     print(i)
+#     i+=1
+
+# multiplication table of n 
+
+# n = int(input("enter a number : "))
+
+# i = 1
+# while(i<=10):
+#     print(n*i)
+#     i+=1
+
+#break and continiue : break is used to terminate a loop and continiue is used to skip the iteration 
+
+
+
+
+
 
 

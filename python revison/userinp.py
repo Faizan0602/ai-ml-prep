@@ -10,3 +10,4 @@ print(sum)
 
 avg = (num1+num2)/2
 print(avg)
+
