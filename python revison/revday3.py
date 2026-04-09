@@ -87,9 +87,78 @@
 
 #break and continiue : break is used to terminate a loop and continiue is used to skip the iteration 
 
+#print number from 1 to 10 but get out of the loop where 6 comes
+# i = 1
+# while(i<=10):
+#     if(i%6==0):
+#         break
+#     print(i)
+#     i+=1
+# print("outside loop")
+
+
+# skip multiple of 3
+
+# i=1
+# while(i<=10):
+#     if(i%3==0):
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+
+#print odd num between 1 and 10
+
+# i =0
+# while(i<10):
+#     i+=1
+#     if(i%2==0):
+#         continue
+#     print(i)
+
+# for loop -  used for sequential traversal 
+
+# string = "faizan"
+
+# for var in string:
+#     print(var)
+
+# if 'i' in string:       # in is a membership opeerator which checks presence of a particular char or smt in string
+#     print("i exist in the given string")
+
+
+# for loop on number sequence
+
+# for i in range(5):
+#     print("hello world")
+
+
+word = "artificial intelligence"
+#count how many times i occured in word
+
+# count = 0
+# for ch in word:
+#     if(ch=='i'):
+#         count+=1
+# print("count of i is : " ,count)
+
+# print vowels in a given word 
+
+word = "artificial intelligence"  
+
+count = 0
+for ch in word:
+    if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
+        count+=1
+print("total vowels : " , count)
 
 
 
 
+
+
+
+
+   
 
 
