@@ -23,12 +23,23 @@
 # result = sum(5,10)
 # print(result) 
 
-def average(a,b,c):
-    avg = (a+b+c)/3
-    return avg
+# def average(a,b,c):
+#     avg = (a+b+c)/3
+#     return avg
 
-a = int(input("enter first num : "))
-b = int(input("enter second num :"))
-c = int(input("enter third num : "))
-result = average(a,b,c)
-print("average of three numbers is : ", result)
+# a = int(input("enter first num : "))
+# b = int(input("enter second num :"))
+# c = int(input("enter third num : "))
+# result = average(a,b,c)
+# print("average of three numbers is : ", result)
+
+def calc_factorial(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact = fact * i
+    return fact
+
+num = int(input("enter a number: "))
+result = calc_factorial(num)
+print("factorial of", num, "is:", result)
+
