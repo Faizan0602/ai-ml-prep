@@ -62,5 +62,55 @@
 # print(even_tuple)
 # print(odd_tuple)
 
+#------------------------------------STARTING AGAIN-----------------------------------------------------------------------------------
+# Ask the user for a string and check whether it is a palindrome or not.
+# A is a string which is same when we read it forward & backward. Eg -
+# “madam”, “racecar” etc.
+# palindrome
 
+
+# n = input("enter a string : ")
+# rev = ""
+# for ch in n :
+#     rev = ch+rev
+
+# if(n==rev):
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+
+
+# Given a list of integers compute the average of all numbers in the list.
+
+# list = [5,10,15,20]
+# sum =0
+# for i in list:
+#     sum+=i
+
+# avg = (sum)/len(list)
+# print(avg)
+
+# num1=[1,2,7]
+# num2=[2,4,5]
+
+# final = num1+num2
+# final.sort()
+# print(final)
+
+# tup = (1,2,3,4,5,6,7,8,9,10)
+# even = []
+# odd = []
+
+# for i in tup:
+#     if(i%2==0):
+#         even.append(i)
+#     else:
+#         odd.append(i)
+
+# even_tuple = (tuple(even))
+# odd_tuple = (tuple(odd))
+
+# print(even_tuple)
+# print(odd_tuple)
+    
 
