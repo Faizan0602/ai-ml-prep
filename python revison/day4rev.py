@@ -41,14 +41,18 @@ sum = a+b
 
 #value based formatting - we can assign values to variable 
 
-print("value of vars {a} and {b} is ".format(a=2,b=3))
+# print("value of vars {a} and {b} is ".format(a=2,b=3))
 
 
-#f-strings()
+# #f-strings()
 
-a =5
-b=10
-print(f"sum of {a} and {b} is {a+b}")
+# a =5
+# b=10
+# print(f"sum of {a} and {b} is {a+b}")
+
+#-------------------------------END OF STRING------------------------------------------------
+
+
 
 
 
