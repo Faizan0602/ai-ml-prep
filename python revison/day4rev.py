@@ -130,3 +130,4 @@ for name, course in info:
         dict[name].add(course)
 
 print(dict)
+
