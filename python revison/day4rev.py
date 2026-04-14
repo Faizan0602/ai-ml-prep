@@ -55,8 +55,78 @@ sum = a+b
 
 
 
+#list 
+
+marks =[99,89,59,69,79]
+# print(len(marks))
+# print(marks[2])
+# marks[3]=70
+# print(marks)
+
+#slicing 
+
+# print(marks[0:4])
+
+#methods
+
+# marks.append(100)
+# print(marks)
+
+# marks.insert(3,81)
+# print(marks)
+
+# marks.sort()
+# print(marks)
+
+# marks.sort(reverse=True)
+# print(marks)
+
+# rev = [1,2,3,4,5]
+# rev.reverse()
+# print(rev)
 
 
+# num = [1,2,3,10,4,5]
+
+# for val in num:
+#     print(val)
 
 
+# # find the index of the element 10 
 
+# x = 10
+# idx=0
+# for value in num :
+#     if value ==x:
+#         print(f"x found at index :{idx}")
+#         break
+#     idx+=1
+#--------------------------------------------END OF LIST --------------------------------------------------------------------------------
+info = [
+    ("Alice","Math"),
+    ("Bob","Science"),
+    ("Alice","Science"),
+    ("Charlie","Math"),
+    ("Bob","Math"),
+    ("Alice","English"),
+    ("Charlie","English")
+]
+# unique=set()
+# for tup in info:
+#     unique.add(tup[1])    #.add function used to add courses in empty set 
+# print(unique)  
+
+# for name,course in info:
+#     if(course=="English"):
+#         print(name)
+
+dict ={}       #print name with their set of courses
+
+for name, course in info:
+    if(dict.get(name)==None):
+        dict.update({name:set()})
+        dict[name].add(course)
+    else:
+        dict[name].add(course)
+
+print(dict)

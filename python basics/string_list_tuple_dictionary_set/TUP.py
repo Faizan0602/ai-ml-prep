@@ -23,3 +23,4 @@ t = (1, 2, 2, 3)
 
 print(t.count(2))   # 2 count total occurence 
 print(t.index(3))   # 3 returns first occurence of index
+
