@@ -112,5 +112,57 @@
 
 # print(even_tuple)
 # print(odd_tuple)
-    
+
+# Create a dictionary where: 
+# • Keys = student names 
+# • Values = marks (integer) 
+# Write a menu-based program where user presses a key (’A’, ‘B’, ‘C’, ‘D’) 
+# depending on the operation they want to perform on the dictionary: 
+# 1. A - Add a student 
+# 2. B - Update marks 
+# 3. C - Search for a student 
+# 4. D - Display all students and marks
+students = {}
+while True:
+    print("\n---MENU----")
+    print("A-add student")
+    print("B-Update marks")
+    print("C-Search students")
+    print("D-Display all")
+    print("E-EXIT")
+
+    choice = input("Enter choice : ").upper()
+
+    if choice =='A':
+        name =input("enter name : ")
+        marks = int(input("enter marks : "))
+        students[name]=marks
+        print("student added successfully")
+    elif choice =='B':
+        name = input("enter name of student whose marks is to be updated :")
+        if name in students:
+            marks = int(input("enter marks to be updated :"))
+            students[name]=marks
+            print("marks updated")
+        else:
+            print("student not found")
+
+    elif choice == 'C':
+        name = input("enter name : ")
+        if name in students:
+            print(f"{name} has {students[name]}marks")
+        else:
+            print("student not found")
+    elif choice =='D':
+        if(len(students))==0:
+            print("NO RECORD")
+        else:
+            print("\n student records :")
+            for name, marks in students.items():
+                print(name ,":" , marks)
+    elif choice == 'E':
+        print("Exiting Program")
+        break
+    else:
+        print("Invalid Choice , Try Again")
 
