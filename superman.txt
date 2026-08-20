@@ -1,0 +1,1 @@
+hello this is a file created by write func (it can creat a file if it doesnot exist/ if it exist it overwrites the file)the 'a' appends in the existing file
