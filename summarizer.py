@@ -26,3 +26,4 @@ while True:
 
     print("\nSummary:")
     print(response.text)
+    
